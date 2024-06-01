@@ -4,7 +4,6 @@ pipeline{
         maven 3.9.7
     }
     stages{
-
        stage("Clean Up"){
          steps{
             deleteDir()
