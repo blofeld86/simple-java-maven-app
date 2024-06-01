@@ -29,5 +29,10 @@ pipeline{
             echo "Faza Release"
          }
        }
+       stage("Finish Build"){
+         steps{
+            echo "Complete"
+         }
+       } 
     }
 }
